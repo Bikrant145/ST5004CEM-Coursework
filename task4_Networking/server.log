@@ -1,0 +1,4 @@
+[client 127.0.0.1] Connected
+[client 127.0.0.1] AUTH success for user 'admin'
+[client 127.0.0.1] MSG from 'admin': Hello Server
+[client 127.0.0.1] Client requested QUIT
