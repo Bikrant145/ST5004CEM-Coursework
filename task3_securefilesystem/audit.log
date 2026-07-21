@@ -1,0 +1,13 @@
+[2026-07-21 18:41:12] user=admin action=LOGIN file=- result=SUCCESS
+[2026-07-21 18:41:50] user=admin action=CREATE file=secret.txt result=SUCCESS
+[2026-07-21 18:42:22] user=admin action=WRITE file=secret.txt result=SUCCESS
+[2026-07-21 18:42:31] user=admin action=READ file=secret.txt result=SUCCESS
+[2026-07-21 18:42:51] user=admin action=ENCRYPT file=secret.txt result=SUCCESS
+[2026-07-21 18:43:43] user=admin action=DECRYPT file=wrongpass result=FAILED
+[2026-07-21 18:44:00] user=admin action=DECRYPT file=secret.txt.enc result=FAILED - wrong passphrase
+[2026-07-21 18:51:53] user=admin action=LOGIN file=- result=SUCCESS
+[2026-07-21 18:52:15] user=admin action=DECRYPT file=secret.txt.enc result=SUCCESS
+[2026-07-21 18:52:55] user=bob action=LOGIN file=- result=SUCCESS
+[2026-07-21 18:53:26] user=bob action=READ file=secret.txt result=DENIED
+[2026-07-21 18:53:44] user=admin action=LOGIN file=- result=SUCCESS
+[2026-07-21 18:54:01] user=admin action=DELETE file=secret.txt result=SUCCESS
