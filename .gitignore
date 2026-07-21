@@ -1,0 +1,11 @@
+task1_threading
+task1_scheduler
+task2_paging
+task3_secure_filesystem
+task4_server
+task4_client
+*.enc
+*.decrypted
+users.txt
+file_perms.txt
+
